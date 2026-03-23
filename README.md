@@ -10,7 +10,7 @@ use Combodo\iTop\VCSManagement\Helper\ModuleHelper;
 
 require_once(APPROOT.'/application/application.inc.php');
 require_once(APPROOT.'/application/startup.inc.php');
-
+  ss
 // Temporary workaround to make sure mandatory parameters are provided
 if (!array_key_exists('transaction_id', $_REQUEST)) {
     $_REQUEST['transaction_id'] = utils::GetNewTransactionId();
